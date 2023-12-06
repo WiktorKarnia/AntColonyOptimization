@@ -17,17 +17,27 @@ class ACOSimulator:
             start_city,
             city_count
         ):
+        # Number of cars(ants)
         self.cars = cars
+        # capacity of each car
         self.car_capacity = car_capacity
+        # City information object
         self.cities_data = cities_data
+        # Number of iterations
         self.iterations = iterations
+        # Level of pheromones for each city
         self.pheromones = pheromones
+        # Evaporation rate (constant)
         self.evaporation_rate = evaporation_rate
+        # Pheromone increment (constant)
         self.pheromone_increase = pheromone_increase
+        # City from which we start (Kraków)
         self.start_city = start_city
+        # Numer of all cities
         self.city_count = city_count
 
-    def calculate_distance(self, coords1, coords2): #Calculate distance between two points on earth
+    #Calculate distance between two points on earth
+    def calculate_distance(self, coords1, coords2):
         lat1, lon1 = math.radians(coords1[0]), math.radians(coords1[1])
         lat2, lon2 = math.radians(coords2[0]), math.radians(coords2[1])
         dlat = lat2 - lat1
@@ -37,30 +47,36 @@ class ACOSimulator:
         distance = 6371 * c  #Earth circumference
         return distance
     
+    # Calculate the attractivness beteween available cities
     def calculate_attractiveness(self, city1, city2):
         distance = self.calculate_distance(city1['coordinates'], city2['coordinates'])
         attractiveness = 1 / (distance + 0.1)
         return attractiveness
     
+    # check if city wasn't already visited
     def check_if_city_candidate(self, city, path, visited_cities):
         return True if city != start_city and city not in path and city not in visited_cities else False
     
+    # Calculate probability of choice in base of attractivness and pheromones
     def calculate_probability(self, current_city, city, every_city_probability):
         pheromone = pheromones[current_city][list(self.cities_data.keys()).index(city)]
         attractiveness = self.calculate_attractiveness(self.cities_data[current_city], self.cities_data[city])
         every_city_probability.append((city, pheromone * attractiveness))
 
+    # Pick next city in base of caculated probability
     def choose_next_city(self, every_city_probability):
         total = sum(probability[1] for probability in every_city_probability)
         every_city_probability = [(city, probability / total) for city, probability in every_city_probability]
 
         return random.choices([probability[0] for probability in every_city_probability], [probability[1] for probability in every_city_probability])[0]
 
+    # Decrese levels of pheromones after each iteration
     def evaporate_phermones(self):
         for city in self.cities_data:
             for pheromone in range(len(self.cities_data)):
                 pheromones[city][pheromone] *= (1 - self.evaporation_rate)
 
+    # Calculate path lengh of found solution
     def calculate_path_lenght(self, all_paths):
         for path in all_paths:
             path_lenght = 0
@@ -79,15 +95,20 @@ class ACOSimulator:
         all_paths = [[] for car in range(self.cars)]  # Paths for each vehicle
         visited_cities = set() 
 
+        # Number of iterations
         for iteration in range(self.iterations):
+            # Memory clear
             visited_cities.clear()
+            # Numer of cars
             for car in range(self.cars):
                 current_city = self.start_city
                 current_path = [current_city]
                 current_capacity = self.car_capacity - self.cities_data[current_city]['demand']
-                visited_cities.add(current_city)  # Add start city to visited
+                # Add start city (Kraków) to visited
+                visited_cities.add(current_city)
 
                 while len(visited_cities) < len(self.cities_data):
+                    # List of probabilities for each available city
                     every_city_probability = []
                     for city in self.cities_data:
                         if self.check_if_city_candidate(city, current_path, visited_cities):
@@ -95,20 +116,26 @@ class ACOSimulator:
                 
                     next_city = self.choose_next_city(every_city_probability)
 
+                    # Check if current capacity is enough for demand
                     if current_capacity - self.cities_data[next_city]['demand'] >= 0:
                         current_city = next_city
                         current_path.append(current_city)
                         current_capacity -= self.cities_data[current_city]['demand']
-                        visited_cities.add(next_city)  # Add visited city
+                        # Add visited city
+                        visited_cities.add(next_city) 
                         if len(visited_cities) == self.city_count:
-                            current_path.append(start_city)  # Add Krakow at the end when vehicle capacity exceeded
+                            # Add Krakow at the end when vehicle capacity exceeded
+                            current_path.append(start_city)
                             break
-                    else:
+                    else: #if is not enough 
                         available_cities = [city for city in self.cities_data if city != start_city and city not in current_path and city not in visited_cities]
+                        # Availabe cities with demand fitting current car
                         other_cities = [city for city in available_cities if current_capacity - self.cities_data[city]['demand'] >= 0]
                         
+                        # Array merge between other_cities cities and every_city_probability list of sets
+                        other_cities_probability = [(city, prob) for city, prob in every_city_probability if city in other_cities]
                         if other_cities:
-                            next_city = random.choice(other_cities)
+                            next_city = self.choose_next_city(other_cities_probability)
                             current_city = next_city
                             current_path.append(current_city)
                             current_capacity -= self.cities_data[current_city]['demand']
@@ -119,14 +146,17 @@ class ACOSimulator:
                         else:
                             current_path.append(start_city)
                             break
-                # Add single car finished path to all car paths    
+                # Add single car finished path to all car paths from current iteration    
                 all_paths[car] = current_path.copy()
 
+            # Add ALL paths from previous iteration to paths from different iterations
             iterations_paths.append(all_paths)
             self.evaporate_phermones()
 
+            # Lenghts of all routes in single iteration
             distances_for_iteration = []
 
+            # Update of path lengh and pheromones levels
             for path in all_paths:
                 path_lenght = 0
                 for city in range(len(path) - 1):
@@ -145,48 +175,25 @@ class ACOSimulator:
                     pheromones[city_B][city_A_index] += pheromone_increase / path_lenght
                 distances_for_iteration.append(path_lenght)
 
+            # Add lenghts of all routes in single iteration to ALL iterations
             all_distances.append(distances_for_iteration)
 
+        #sum all distances
         for distance in all_distances:
             sum_all_distances.append(sum(distance))
 
+        # select best path
         best_route_distance_total = min(sum_all_distances)
         best_route_index = sum_all_distances.index(best_route_distance_total)
         best_route_distances = all_distances[best_route_index]
         best_route = iterations_paths[best_route_index]
 
         return iterations_paths, all_distances, sum_all_distances, best_route, best_route_distances, best_route_distance_total
-        #return iterations_paths
 
 if __name__ == "__main__":
 
-    # cars = 5
-    # car_capacity = 1000
-    # iterations = 100
-    # with open('cities.json', 'r', encoding='utf-8') as file:
-    #     cities_data = json.load(file)
-    # pheromones = {city: [1 for _ in range(len(cities_data))] for city in cities_data}
-    # evaporation_rate = 0.1
-    # pheromone_increase = 1
-    # start_city = "Kraków"
-    # city_count = len(cities_data)
-
-    # simulation = ACOSimulator(
-    #         cars, 
-    #         car_capacity, 
-    #         cities_data, 
-    #         iterations, 
-    #         pheromones,
-    #         evaporation_rate,
-    #         pheromone_increase,
-    #         start_city,
-    #         city_count
-    #     )
-    # print(simulation.run_simulation())
-
-#---------------------------------------------------------------------
-
-    def check_if_doable(cities_data, capacity, num_ants): #Check if all cities can be visited with cars capacity
+    #Check if all cities can be visited with cars capacity
+    def check_if_doable(cities_data, capacity, num_ants):
         total_demand = 0
         for city in cities_data.values():
             total_demand += city['demand']
@@ -281,7 +288,7 @@ if __name__ == "__main__":
     
     cars = 5
     car_capacity = 1000
-    iterations = 100
+    iterations = 1000
     with open('cities.json', 'r', encoding='utf-8') as file:
         cities_data = json.load(file)
     pheromones = {city: [1 for _ in range(len(cities_data))] for city in cities_data}
@@ -306,6 +313,7 @@ if __name__ == "__main__":
             city_count
         )
 
+        # Run simulation
         iterations_paths, all_distances, sum_all_distances, best_route, best_route_distances, best_route_distance_total = simulation.run_simulation()
 
         print_best_paths(best_route, best_route_distances, cities_data, best_route_distance_total)
