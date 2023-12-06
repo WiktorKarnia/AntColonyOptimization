@@ -27,9 +27,6 @@ class ACOSimulator:
         self.start_city = start_city
         self.city_count = city_count
 
-    def check_capacity_for_demand(self):
-        pass
-
     def calculate_distance(self, coords1, coords2): #Calculate distance between two points on earth
         lat1, lon1 = math.radians(coords1[0]), math.radians(coords1[1])
         lat2, lon2 = math.radians(coords2[0]), math.radians(coords2[1])
@@ -45,7 +42,6 @@ class ACOSimulator:
         attractiveness = 1 / (distance + 0.1)
         return attractiveness
     
-
     def check_if_city_candidate(self, city, path, visited_cities):
         return True if city != start_city and city not in path and city not in visited_cities else False
     
@@ -123,33 +119,33 @@ class ACOSimulator:
                         else:
                             current_path.append(start_city)
                             break
-            # Add single car finished path to all car paths    
-            all_paths[car] = current_path.copy()
+                # Add single car finished path to all car paths    
+                all_paths[car] = current_path.copy()
 
-        self.evaporate_phermones()
+            iterations_paths.append(all_paths)
+            self.evaporate_phermones()
 
-        distances_for_iteration = []
-        iterations_paths.append(all_paths)
+            distances_for_iteration = []
 
-        for path in all_paths:
-            path_lenght = 0
-            for city in range(len(path) - 1):
-                city_A = path[city]
-                city_B = path[city + 1]
-                city_A_coords = self.cities_data[city_A]['coordinates']
-                city_B_coords = self.cities_data[city_B]['coordinates']
-                path_lenght += self.calculate_distance(city_A_coords, city_B_coords)
-            for city in range(len(path) - 1):
-                city_A = path[city]
-                city_B = path[city + 1]
-                city_A_index = list(self.cities_data.keys()).index(city_A)
-                city_B_index = list(self.cities_data.keys()).index(city_B)
-                    
-                pheromones[city_A][city_B_index] += pheromone_increase / path_lenght
-                pheromones[city_B][city_A_index] += pheromone_increase / path_lenght
-            distances_for_iteration.append(path_lenght)
+            for path in all_paths:
+                path_lenght = 0
+                for city in range(len(path) - 1):
+                    city_A = path[city]
+                    city_B = path[city + 1]
+                    city_A_coords = self.cities_data[city_A]['coordinates']
+                    city_B_coords = self.cities_data[city_B]['coordinates']
+                    path_lenght += self.calculate_distance(city_A_coords, city_B_coords)
+                for city in range(len(path) - 1):
+                    city_A = path[city]
+                    city_B = path[city + 1]
+                    city_A_index = list(self.cities_data.keys()).index(city_A)
+                    city_B_index = list(self.cities_data.keys()).index(city_B)
+                        
+                    pheromones[city_A][city_B_index] += pheromone_increase / path_lenght
+                    pheromones[city_B][city_A_index] += pheromone_increase / path_lenght
+                distances_for_iteration.append(path_lenght)
 
-        all_distances.append(distances_for_iteration)
+            all_distances.append(distances_for_iteration)
 
         for distance in all_distances:
             sum_all_distances.append(sum(distance))
@@ -163,28 +159,156 @@ class ACOSimulator:
         #return iterations_paths
 
 if __name__ == "__main__":
+
+    # cars = 5
+    # car_capacity = 1000
+    # iterations = 100
+    # with open('cities.json', 'r', encoding='utf-8') as file:
+    #     cities_data = json.load(file)
+    # pheromones = {city: [1 for _ in range(len(cities_data))] for city in cities_data}
+    # evaporation_rate = 0.1
+    # pheromone_increase = 1
+    # start_city = "Kraków"
+    # city_count = len(cities_data)
+
+    # simulation = ACOSimulator(
+    #         cars, 
+    #         car_capacity, 
+    #         cities_data, 
+    #         iterations, 
+    #         pheromones,
+    #         evaporation_rate,
+    #         pheromone_increase,
+    #         start_city,
+    #         city_count
+    #     )
+    # print(simulation.run_simulation())
+
+#---------------------------------------------------------------------
+
+    def check_if_doable(cities_data, capacity, num_ants): #Check if all cities can be visited with cars capacity
+        total_demand = 0
+        for city in cities_data.values():
+            total_demand += city['demand']
+        return total_demand <= capacity*num_ants
+    
+    def print_best_paths(best_routes, total_distances, cities_data, total_distance):
+        for i, route in enumerate(best_routes):
+            if i < len(total_distances):
+                distance = total_distances[i]
+                print(f"Najlepsza trasa dla samochodu {i + 1}: {route}")
+                print(f"Długość trasy: {distance:.2f} km")
+                print(f"Łączne zapotrzebowanie: {sum(cities_data[city]['demand'] for city in route)}")
+                print("\n")
+        print(f"Łączna długość trasy: {total_distance:.2f} km")
+        print("\n")
+
+    def save_all_paths(cities_data, iterations_paths, all_distances, sum_all_distances):
+        routes_data = []
+        
+        # Store the iterations' routes
+        for i, paths in enumerate(iterations_paths):
+            iteration_data = {
+                f"Iteration_{i + 1}": {
+                    "FullDistance": f"{round(sum_all_distances[i], 2)} km",
+                    "Routes": []
+                }
+            }
+            for path_index, path in enumerate(paths):
+                distance = round(all_distances[i][path_index], 2)
+                route_data = {
+                    "route": path,
+                    "distance": f"{distance} km",
+                    "demand": f"{sum(cities_data[city]['demand'] for city in path)}"
+                }
+                iteration_data[f"Iteration_{i + 1}"]["Routes"].append(route_data)
+            routes_data.append(iteration_data)
+
+        with open('all_routes.json', 'w', encoding='utf-8') as file:
+            json.dump(routes_data, file, ensure_ascii=False, indent=2)
+
+    def save_best_path(cities_data, best_route, best_route_distances, best_route_distance_total):
+        best_routes_data = []
+        
+        # Store the best route
+        best_route_data = {
+            "BestRoute": {
+                "FullDistance": f"{round(best_route_distance_total, 2)} km",
+                "Routes": []
+            }
+        }
+        for path_index, path in enumerate(best_route):
+            distance = round(best_route_distances[path_index], 2)
+            route_data = {
+                "route": path,
+                "distance": f"{distance} km",
+                "demand": f"{sum(cities_data[city]['demand'] for city in path)}"
+            }
+            best_route_data["BestRoute"]["Routes"].append(route_data)
+        best_routes_data.append(best_route_data)
+
+        with open('best_route.json', 'w', encoding='utf-8') as file:
+            json.dump(best_routes_data, file, ensure_ascii=False, indent=2)
+            
+    def draw_map(cities_data, paths):
+        # Wyciągnij współrzędne miast
+        coordinates = {city: data['coordinates'] for city, data in cities_data.items()}
+
+        # Utwórz wykres
+        plt.figure(figsize=(10, 8))
+
+        # Dodaj punkty reprezentujące miasta
+        for city, coord in coordinates.items():
+            plt.plot(coord[1], coord[0], 'o', markersize=8)
+            plt.text(coord[1], coord[0], city, fontsize=9)
+
+        # Rysuj linie reprezentujące trasy
+        for path in paths:
+            color = "#{:06x}".format(random.randint(0, 0xFFFFFF)) 
+            for i in range(len(path) - 1):
+                city1 = path[i]
+                city2 = path[i + 1]
+                coord1 = coordinates[city1]
+                coord2 = coordinates[city2]
+                plt.plot([coord1[1], coord2[1]], [coord1[0], coord2[0]], '-', color=color)
+
+        plt.xlabel('Longitude')
+        plt.ylabel('Latitude')
+        plt.title('Map of Cities and Routes')
+        plt.grid(True)
+        plt.savefig(f'path{random.randint(1000, 9999)}.png')
+        plt.show()
+    
     cars = 5
     car_capacity = 1000
-    iterations = 10
+    iterations = 100
     with open('cities.json', 'r', encoding='utf-8') as file:
         cities_data = json.load(file)
-    city_count = len(cities_data)
-
     pheromones = {city: [1 for _ in range(len(cities_data))] for city in cities_data}
     evaporation_rate = 0.1
     pheromone_increase = 1
     start_city = "Kraków"
+    city_count = len(cities_data)
 
-    simulation = ACOSimulator(
-        cars, 
-        car_capacity, 
-        cities_data, 
-        iterations, 
-        pheromones,
-        evaporation_rate,
-        pheromone_increase,
-        start_city,
-        city_count
-    )
-    
-    print(simulation.run_simulation())
+    if not check_if_doable(cities_data, car_capacity, cars):
+        print("Error: Vehicle capacity cannot fulfill the demands of all cities.")
+    else:
+
+        simulation = ACOSimulator(
+            cars, 
+            car_capacity, 
+            cities_data, 
+            iterations, 
+            pheromones,
+            evaporation_rate,
+            pheromone_increase,
+            start_city,
+            city_count
+        )
+
+        iterations_paths, all_distances, sum_all_distances, best_route, best_route_distances, best_route_distance_total = simulation.run_simulation()
+
+        print_best_paths(best_route, best_route_distances, cities_data, best_route_distance_total)
+        save_all_paths(cities_data,iterations_paths, all_distances, sum_all_distances)
+        save_best_path(cities_data, best_route, best_route_distances, best_route_distance_total)
+        draw_map(cities_data, best_route)

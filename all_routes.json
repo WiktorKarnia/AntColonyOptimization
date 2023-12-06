@@ -1,0 +1,7702 @@
+[
+  {
+    "Iteration_1": {
+      "FullDistance": "6596.6 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1648.88 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1096.62 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2319.21 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1035.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "495.97 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_2": {
+      "FullDistance": "7923.06 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1641.9 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1487.12 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1890.52 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2027.47 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "876.05 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_3": {
+      "FullDistance": "6650.31 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1349.35 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1096.55 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1100.0 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1776.7 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1327.71 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_4": {
+      "FullDistance": "8381.51 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2636.47 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1992.38 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1089.74 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1219.53 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1443.39 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_5": {
+      "FullDistance": "6848.03 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1873.38 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1225.52 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1405.55 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1707.1 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "636.48 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_6": {
+      "FullDistance": "7807.08 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1399.29 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1659.12 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1410.1 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2524.31 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "814.27 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_7": {
+      "FullDistance": "7633.73 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2705.47 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1157.68 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1394.07 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "869.19 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_8": {
+      "FullDistance": "7601.69 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2090.04 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1809.1 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "914.38 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2169.17 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "618.99 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_9": {
+      "FullDistance": "7813.99 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1621.99 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1648.64 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1582.78 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1453.25 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_10": {
+      "FullDistance": "7781.57 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1845.57 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1950.47 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1285.87 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "954.3 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1745.37 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_11": {
+      "FullDistance": "6336.41 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1089.83 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1948.19 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1643.47 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1035.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "618.99 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_12": {
+      "FullDistance": "7522.69 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "886.96 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2004.55 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1859.53 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1534.11 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1237.54 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_13": {
+      "FullDistance": "7687.52 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1979.24 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "617.52 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1957.66 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1751.75 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1381.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_14": {
+      "FullDistance": "6744.27 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "758.89 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1679.22 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1489.38 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1309.45 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_15": {
+      "FullDistance": "6865.54 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1174.61 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1712.26 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1219.94 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1304.66 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1454.07 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_16": {
+      "FullDistance": "7279.58 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1823.53 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1436.64 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1042.57 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2043.52 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "933.31 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_17": {
+      "FullDistance": "7791.6 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1939.15 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2559.24 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1129.54 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "965.1 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1198.58 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_18": {
+      "FullDistance": "7586.52 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2303.62 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1296.56 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "964.57 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1950.34 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1071.43 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_19": {
+      "FullDistance": "8389.86 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2193.83 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2716.11 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1173.88 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1053.97 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1252.06 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_20": {
+      "FullDistance": "8105.85 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1740.55 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2289.26 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1674.16 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "927.19 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1474.68 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_21": {
+      "FullDistance": "8139.84 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1516.18 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2353.98 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2384.47 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1015.51 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "869.68 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_22": {
+      "FullDistance": "8186.45 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "711.48 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2995.51 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2238.39 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "733.75 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_23": {
+      "FullDistance": "9708.61 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2094.27 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1909.97 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1359.65 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2724.03 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1620.7 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_24": {
+      "FullDistance": "8597.12 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2016.65 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "792.06 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1545.42 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "3094.63 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1148.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_25": {
+      "FullDistance": "7782.54 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1481.22 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "987.84 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1670.38 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2216.22 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1426.88 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_26": {
+      "FullDistance": "8120.05 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1439.3 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2210.13 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1490.14 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1691.46 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1289.03 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_27": {
+      "FullDistance": "7233.1 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1771.2 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1471.62 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2009.59 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "932.31 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1048.37 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_28": {
+      "FullDistance": "8044.32 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "592.1 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2279.89 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2435.05 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1518.51 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1218.78 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_29": {
+      "FullDistance": "8858.83 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2384.41 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2180.05 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1389.72 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2001.73 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "902.93 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_30": {
+      "FullDistance": "8023.79 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2375.46 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1721.62 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "761.36 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1851.97 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1313.38 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_31": {
+      "FullDistance": "7913.42 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1426.83 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1395.98 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2347.11 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1491.45 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1252.06 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_32": {
+      "FullDistance": "7207.56 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1399.03 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2297.46 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1509.39 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "999.97 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1001.7 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_33": {
+      "FullDistance": "6987.11 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1254.13 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "975.95 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1664.75 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2186.23 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "906.04 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_34": {
+      "FullDistance": "7135.44 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1887.37 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1210.18 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1666.51 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1642.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "728.46 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_35": {
+      "FullDistance": "7983.47 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1461.44 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1983.9 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "604.76 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2089.75 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1843.62 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_36": {
+      "FullDistance": "7378.14 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "793.72 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1592.62 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2669.97 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "842.48 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1479.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_37": {
+      "FullDistance": "8664.9 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1764.61 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2888.91 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1304.68 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1658.34 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1048.37 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_38": {
+      "FullDistance": "8653.99 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1869.52 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1434.03 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2258.4 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2155.13 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "936.9 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_39": {
+      "FullDistance": "7867.2 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1000.05 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1833.81 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2303.5 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1694.72 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1035.12 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_40": {
+      "FullDistance": "7820.56 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "601.46 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2272.24 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2191.37 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1612.14 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1143.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_41": {
+      "FullDistance": "6641.78 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1959.01 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1415.15 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "731.77 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "999.09 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1536.76 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_42": {
+      "FullDistance": "8167.49 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1451.15 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1488.56 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2318.12 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1910.72 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "998.94 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_43": {
+      "FullDistance": "8261.06 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2145.42 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1219.53 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "660.91 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2529.82 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1705.37 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_44": {
+      "FullDistance": "8130.55 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1320.94 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2425.16 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "761.36 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2131.85 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1491.24 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_45": {
+      "FullDistance": "8359.05 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2325.04 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2656.35 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "880.87 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1483.27 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1013.53 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_46": {
+      "FullDistance": "8436.48 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1774.19 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1575.05 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2483.59 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1025.95 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1577.7 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_47": {
+      "FullDistance": "7955.67 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1303.89 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1556.72 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "3300.39 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1382.71 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "411.97 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_48": {
+      "FullDistance": "8351.33 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1416.28 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1999.69 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1629.61 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2309.26 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "996.48 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_49": {
+      "FullDistance": "7014.61 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1470.71 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1575.36 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1529.61 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1518.86 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "920.07 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_50": {
+      "FullDistance": "7545.56 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1037.7 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1791.65 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2423.66 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1478.62 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "813.93 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_51": {
+      "FullDistance": "7191.61 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1935.88 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1505.63 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "878.79 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1429.64 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1441.68 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_52": {
+      "FullDistance": "6982.51 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1021.03 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1896.74 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1719.02 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1667.58 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "678.14 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_53": {
+      "FullDistance": "6784.2 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1475.84 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1291.39 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1128.94 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1444.65 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1443.39 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_54": {
+      "FullDistance": "8752.04 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "971.01 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2883.88 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1553.45 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2394.86 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "948.84 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_55": {
+      "FullDistance": "6570.83 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "989.05 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1230.18 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1733.42 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1999.5 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "618.67 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_56": {
+      "FullDistance": "7470.94 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1854.21 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2160.05 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1744.24 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "667.72 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1044.72 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_57": {
+      "FullDistance": "6975.19 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1173.57 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "582.3 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2098.39 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2176.83 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "944.1 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_58": {
+      "FullDistance": "6534.73 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1056.46 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1882.4 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1018.66 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2006.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "570.28 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_59": {
+      "FullDistance": "7672.38 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1507.81 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "769.12 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "3222.65 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1159.27 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1013.53 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_60": {
+      "FullDistance": "9073.31 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1741.19 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2327.74 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1824.03 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2338.81 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "841.53 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_61": {
+      "FullDistance": "7960.44 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1566.22 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1181.25 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2023.98 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2075.73 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1113.26 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_62": {
+      "FullDistance": "6760.86 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1808.8 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1579.31 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1739.31 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "619.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1013.53 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_63": {
+      "FullDistance": "7781.89 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "821.84 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2401.1 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1538.81 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2006.62 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1013.53 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_64": {
+      "FullDistance": "7490.02 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1598.8 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "955.92 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2818.57 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "915.36 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1201.37 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_65": {
+      "FullDistance": "6748.59 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1275.97 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1587.21 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2040.44 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "942.46 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "902.51 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_66": {
+      "FullDistance": "8030.16 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "359.58 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2875.64 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1788.59 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1928.81 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1077.54 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_67": {
+      "FullDistance": "7750.78 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1819.3 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1754.81 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1974.49 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "633.09 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1569.09 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_68": {
+      "FullDistance": "7744.43 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "884.69 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2010.78 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2027.44 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "932.31 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1889.22 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_69": {
+      "FullDistance": "7654.4 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2188.91 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1690.71 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1345.27 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1286.15 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1143.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_70": {
+      "FullDistance": "7620.73 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "913.18 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2282.74 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1951.41 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1286.27 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1187.12 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_71": {
+      "FullDistance": "7419.08 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "765.75 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2261.93 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1374.92 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1875.06 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1141.42 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_72": {
+      "FullDistance": "7252.61 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1004.78 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1638.52 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1238.23 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2367.35 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1003.74 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_73": {
+      "FullDistance": "7036.73 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1581.96 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "563.91 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2020.35 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1739.92 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1130.58 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_74": {
+      "FullDistance": "7796.2 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "2283.82 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1238.74 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1379.82 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1304.85 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1588.98 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_75": {
+      "FullDistance": "6503.95 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "631.89 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2226.72 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1001.96 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1305.8 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1337.58 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_76": {
+      "FullDistance": "6161.16 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "398.19 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2128.03 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1162.8 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1593.61 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "878.54 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_77": {
+      "FullDistance": "7031.98 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1031.8 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "966.87 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2193.27 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1670.76 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1169.29 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_78": {
+      "FullDistance": "7304.24 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "958.97 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1186.98 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2115.41 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1535.57 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_79": {
+      "FullDistance": "7556.16 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "825.89 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "950.86 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "3700.18 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1265.29 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "813.93 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_80": {
+      "FullDistance": "6123.77 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1090.83 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1004.96 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1349.04 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1199.8 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1479.14 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_81": {
+      "FullDistance": "6086.74 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "732.55 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1144.4 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1343.26 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1697.23 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1169.29 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_82": {
+      "FullDistance": "6205.2 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "998.85 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1153.04 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1674.61 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "841.93 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1536.76 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_83": {
+      "FullDistance": "6532.87 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "618.42 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1376.42 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1705.15 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1325.56 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_84": {
+      "FullDistance": "6330.25 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "669.0 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1296.89 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1286.15 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1960.33 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1117.88 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_85": {
+      "FullDistance": "7463.27 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1178.07 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1541.83 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2534.11 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "717.86 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1491.4 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_86": {
+      "FullDistance": "6429.5 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "916.2 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "745.29 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1287.28 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1973.4 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_87": {
+      "FullDistance": "6360.66 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "746.32 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "925.36 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1297.21 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2577.83 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "813.93 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_88": {
+      "FullDistance": "6748.45 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "703.49 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1804.87 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1850.46 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1663.11 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "726.52 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_89": {
+      "FullDistance": "7008.29 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1848.09 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1844.67 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "574.47 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1233.73 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1507.32 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_90": {
+      "FullDistance": "5900.67 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "927.29 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "626.45 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1965.19 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1592.77 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "788.97 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_91": {
+      "FullDistance": "6266.31 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1245.4 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1621.93 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1612.6 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "920.35 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "866.02 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_92": {
+      "FullDistance": "7192.43 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "396.13 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1172.13 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2329.79 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1609.54 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1684.84 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_93": {
+      "FullDistance": "7061.68 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1401.81 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "342.69 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2567.64 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1444.96 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1304.58 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_94": {
+      "FullDistance": "6772.4 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "337.67 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1938.38 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1287.23 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "2065.77 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1143.36 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_95": {
+      "FullDistance": "6596.3 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "802.95 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1434.96 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2568.57 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1219.53 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "570.28 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_96": {
+      "FullDistance": "7639.54 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1272.49 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "2187.8 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1806.42 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "773.24 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1599.59 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_97": {
+      "FullDistance": "6462.07 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "833.82 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1422.94 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2267.14 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1293.2 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "644.98 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_98": {
+      "FullDistance": "6309.88 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "980.76 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1715.84 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2433.57 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "365.78 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "813.93 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_99": {
+      "FullDistance": "6108.16 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "1239.95 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "897.14 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "1628.95 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1813.41 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "528.7 km",
+          "demand": "650"
+        }
+      ]
+    }
+  },
+  {
+    "Iteration_100": {
+      "FullDistance": "7120.36 km",
+      "Routes": [
+        {
+          "route": [
+            "Kraków",
+            "Wieliczka",
+            "Katowice",
+            "Bielsko-Biała",
+            "Chrzanów",
+            "Gliwice",
+            "Radom",
+            "Kraków"
+          ],
+          "distance": "624.72 km",
+          "demand": "980"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Tarnów",
+            "Gromnik",
+            "Krynica",
+            "Warszawa",
+            "Rzeszów",
+            "Krosno",
+            "Wrocław",
+            "Poznań",
+            "Łódź",
+            "Szczucin",
+            "Kraków"
+          ],
+          "distance": "1732.35 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Nowy Targ",
+            "Zakopane",
+            "Puławy",
+            "Kielce",
+            "Gdynia",
+            "Gdańsk",
+            "Lublin",
+            "Szklarska Poręba",
+            "Kraków"
+          ],
+          "distance": "2176.26 km",
+          "demand": "960"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Białystok",
+            "Olsztyn",
+            "Malbork",
+            "Kraków"
+          ],
+          "distance": "1143.47 km",
+          "demand": "900"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Sandomierz",
+            "Zamość",
+            "Szczecin",
+            "Kraków"
+          ],
+          "distance": "1443.57 km",
+          "demand": "650"
+        }
+      ]
+    }
+  }
+]
