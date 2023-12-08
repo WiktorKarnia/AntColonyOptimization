@@ -202,6 +202,7 @@ if __name__ == "__main__":
             total_demand += city['demand']
         return total_demand <= capacity*num_ants
     
+    # Print best path info in terminal
     def print_best_paths(best_routes, total_distances, cities_data, total_distance):
         for i, route in enumerate(best_routes):
             if i < len(total_distances):
@@ -213,10 +214,10 @@ if __name__ == "__main__":
         print(f"Łączna długość trasy: {total_distance:.2f} km")
         print("\n")
 
+    # Save a file with info about all generated routes
     def save_all_paths(cities_data, iterations_paths, all_distances, sum_all_distances):
         routes_data = []
         
-        # Store the iterations' routes
         for i, paths in enumerate(iterations_paths):
             iteration_data = {
                 f"Iteration_{i + 1}": {
@@ -237,10 +238,10 @@ if __name__ == "__main__":
         with open('all_routes.json', 'w', encoding='utf-8') as file:
             json.dump(routes_data, file, ensure_ascii=False, indent=2)
 
+    # Save a file with info about best path
     def save_best_path(cities_data, best_route, best_route_distances, best_route_distance_total):
         best_routes_data = []
         
-        # Store the best route
         best_route_data = {
             "BestRoute": {
                 "FullDistance": f"{round(best_route_distance_total, 2)} km",
@@ -260,28 +261,31 @@ if __name__ == "__main__":
         with open('best_route.json', 'w', encoding='utf-8') as file:
             json.dump(best_routes_data, file, ensure_ascii=False, indent=2)
             
+    #Draw a map of all generated routes
     def draw_full_map(cities_data, all_paths):
-        # Wyciągnij współrzędne miast
         coordinates = {city: data['coordinates'] for city, data in cities_data.items()}
-
-        # Utwórz wykres
+        
         plt.figure(figsize=(10, 8))
-
-        # Dodaj punkty reprezentujące miasta
+        
         for city, coord in coordinates.items():
             plt.plot(coord[1], coord[0], 'o', markersize=8)
             plt.text(coord[1], coord[0], city, fontsize=9)
                 
-        # Rysuj linie reprezentujące trasy
+        used_colors = []
+        
         for paths in all_paths:
-            # print(paths)
             for path in paths: 
+                color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+                while color in used_colors: 
+                    color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+                used_colors.append(color)
+                
                 for i in range(len(path) - 1):
                     city1 = path[i]
                     city2 = path[i + 1]
                     coord1 = coordinates[city1]
                     coord2 = coordinates[city2]
-                    plt.plot([coord1[1], coord2[1]], [coord1[0], coord2[0]], '-', color='#000000')
+                    plt.plot([coord1[1], coord2[1]], [coord1[0], coord2[0]], '-', color=color)
 
         plt.xlabel('Longitude')
         plt.ylabel('Latitude')
@@ -291,15 +295,12 @@ if __name__ == "__main__":
         plt.close()
         # plt.show()
         
-
+    #Draw a map of the best route
     def draw_map(cities_data, paths):
-        # Wyciągnij współrzędne miast
         coordinates = {city: data['coordinates'] for city, data in cities_data.items()}
 
-        # Utwórz wykres
         plt.figure(figsize=(10, 8))
-
-        # Dodaj punkty reprezentujące miasta
+        
         for city, coord in coordinates.items():
             plt.plot(coord[1], coord[0], 'o', markersize=8)
             plt.text(coord[1], coord[0], city, fontsize=9)
@@ -309,11 +310,16 @@ if __name__ == "__main__":
         plt.title('Map of Cities and Routes')
         plt.grid(True)
         plt.draw()
-        plt.pause(0.1)  # Pause to show the cities
+        plt.pause(0.1)
 
-        # Rysuj linie reprezentujące trasy
+        used_colors = [] 
+        
         for path in paths:
-            color = "#{:06x}".format(random.randint(0, 0xFFFFFF)) 
+            color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+            while color in used_colors: 
+                color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+            used_colors.append(color)
+            
             plt.pause(0.5)
             for i in range(len(path) - 1):
                 city1 = path[i]
@@ -333,6 +339,7 @@ if __name__ == "__main__":
     cars = 5
     car_capacity = 1000
     iterations = 1000
+    
     with open('cities.json', 'r', encoding='utf-8') as file:
         cities_data = json.load(file)
     pheromones = {city: [1 for _ in range(len(cities_data))] for city in cities_data}
