@@ -97,6 +97,7 @@ class ACOSimulator:
 
         # Number of iterations
         for iteration in range(self.iterations):
+            # print(iterations_paths)
             # Memory clear
             visited_cities.clear()
             # Numer of cars
@@ -148,14 +149,16 @@ class ACOSimulator:
                             break
                 # Add single car finished path to all car paths from current iteration    
                 all_paths[car] = current_path.copy()
-
+            
             # Add ALL paths from previous iteration to paths from different iterations
-            iterations_paths.append(all_paths)
+            iterations_paths.append(all_paths.copy())
+
+            # Evaporating pheromones
             self.evaporate_phermones()
 
             # Lenghts of all routes in single iteration
             distances_for_iteration = []
-
+            
             # Update of path lengh and pheromones levels
             for path in all_paths:
                 path_lenght = 0
@@ -177,7 +180,7 @@ class ACOSimulator:
 
             # Add lenghts of all routes in single iteration to ALL iterations
             all_distances.append(distances_for_iteration)
-
+        
         #sum all distances
         for distance in all_distances:
             sum_all_distances.append(sum(distance))
@@ -187,7 +190,7 @@ class ACOSimulator:
         best_route_index = sum_all_distances.index(best_route_distance_total)
         best_route_distances = all_distances[best_route_index]
         best_route = iterations_paths[best_route_index]
-
+        
         return iterations_paths, all_distances, sum_all_distances, best_route, best_route_distances, best_route_distance_total
 
 if __name__ == "__main__":
@@ -257,6 +260,38 @@ if __name__ == "__main__":
         with open('best_route.json', 'w', encoding='utf-8') as file:
             json.dump(best_routes_data, file, ensure_ascii=False, indent=2)
             
+    def draw_full_map(cities_data, all_paths):
+        # Wyciągnij współrzędne miast
+        coordinates = {city: data['coordinates'] for city, data in cities_data.items()}
+
+        # Utwórz wykres
+        plt.figure(figsize=(10, 8))
+
+        # Dodaj punkty reprezentujące miasta
+        for city, coord in coordinates.items():
+            plt.plot(coord[1], coord[0], 'o', markersize=8)
+            plt.text(coord[1], coord[0], city, fontsize=9)
+                
+        # Rysuj linie reprezentujące trasy
+        for paths in all_paths:
+            # print(paths)
+            for path in paths: 
+                for i in range(len(path) - 1):
+                    city1 = path[i]
+                    city2 = path[i + 1]
+                    coord1 = coordinates[city1]
+                    coord2 = coordinates[city2]
+                    plt.plot([coord1[1], coord2[1]], [coord1[0], coord2[0]], '-', color='#000000')
+
+        plt.xlabel('Longitude')
+        plt.ylabel('Latitude')
+        plt.title('Map of Cities and Routes')
+        plt.grid(True)
+        plt.savefig(f'all_paths.png')
+        plt.close()
+        # plt.show()
+        
+
     def draw_map(cities_data, paths):
         # Wyciągnij współrzędne miast
         coordinates = {city: data['coordinates'] for city, data in cities_data.items()}
@@ -269,22 +304,31 @@ if __name__ == "__main__":
             plt.plot(coord[1], coord[0], 'o', markersize=8)
             plt.text(coord[1], coord[0], city, fontsize=9)
 
+        plt.xlabel('Longitude')
+        plt.ylabel('Latitude')
+        plt.title('Map of Cities and Routes')
+        plt.grid(True)
+        plt.draw()
+        plt.pause(0.1)  # Pause to show the cities
+
         # Rysuj linie reprezentujące trasy
         for path in paths:
             color = "#{:06x}".format(random.randint(0, 0xFFFFFF)) 
+            plt.pause(0.5)
             for i in range(len(path) - 1):
                 city1 = path[i]
                 city2 = path[i + 1]
                 coord1 = coordinates[city1]
                 coord2 = coordinates[city2]
                 plt.plot([coord1[1], coord2[1]], [coord1[0], coord2[0]], '-', color=color)
+                plt.draw()
+                plt.pause(0.1) 
 
-        plt.xlabel('Longitude')
-        plt.ylabel('Latitude')
-        plt.title('Map of Cities and Routes')
-        plt.grid(True)
-        plt.savefig(f'path{random.randint(1000, 9999)}.png')
+        plt.ioff()
+        plt.savefig(f'best_route.png')
         plt.show()
+
+        
     
     cars = 5
     car_capacity = 1000
@@ -319,4 +363,5 @@ if __name__ == "__main__":
         print_best_paths(best_route, best_route_distances, cities_data, best_route_distance_total)
         save_all_paths(cities_data,iterations_paths, all_distances, sum_all_distances)
         save_best_path(cities_data, best_route, best_route_distances, best_route_distance_total)
+        draw_full_map(cities_data, iterations_paths)
         draw_map(cities_data, best_route)
