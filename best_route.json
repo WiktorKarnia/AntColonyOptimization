@@ -1,77 +1,77 @@
 [
   {
     "BestRoute": {
-      "FullDistance": "5900.67 km",
+      "FullDistance": "4530.16 km",
       "Routes": [
         {
           "route": [
             "Kraków",
-            "Wieliczka",
-            "Katowice",
+            "Nowy Targ",
             "Bielsko-Biała",
-            "Chrzanów",
             "Gliwice",
-            "Radom",
+            "Katowice",
+            "Chrzanów",
+            "Wieliczka",
             "Kraków"
           ],
-          "distance": "927.29 km",
-          "demand": "980"
-        },
-        {
-          "route": [
-            "Kraków",
-            "Tarnów",
-            "Gromnik",
-            "Krynica",
-            "Warszawa",
-            "Rzeszów",
-            "Krosno",
-            "Wrocław",
-            "Poznań",
-            "Łódź",
-            "Szczucin",
-            "Kraków"
-          ],
-          "distance": "626.45 km",
+          "distance": "323.17 km",
           "demand": "1000"
         },
         {
           "route": [
             "Kraków",
-            "Nowy Targ",
-            "Zakopane",
-            "Puławy",
             "Kielce",
-            "Gdynia",
-            "Gdańsk",
+            "Szczucin",
+            "Tarnów",
+            "Gromnik",
+            "Zakopane",
+            "Krynica",
+            "Krosno",
+            "Rzeszów",
+            "Puławy",
             "Lublin",
-            "Szklarska Poręba",
             "Kraków"
           ],
-          "distance": "1965.19 km",
-          "demand": "960"
+          "distance": "926.04 km",
+          "demand": "990"
         },
         {
           "route": [
             "Kraków",
-            "Białystok",
-            "Olsztyn",
+            "Wrocław",
+            "Szklarska Poręba",
+            "Szczecin",
             "Malbork",
+            "Gdańsk",
+            "Gdynia",
+            "Poznań",
+            "Łódź",
+            "Radom",
             "Kraków"
           ],
-          "distance": "1592.77 km",
-          "demand": "900"
+          "distance": "1749.06 km",
+          "demand": "1000"
+        },
+        {
+          "route": [
+            "Kraków",
+            "Warszawa",
+            "Białystok",
+            "Olsztyn",
+            "Kraków"
+          ],
+          "distance": "1035.92 km",
+          "demand": "1000"
         },
         {
           "route": [
             "Kraków",
             "Sandomierz",
             "Zamość",
-            "Szczecin",
             "Kraków"
           ],
-          "distance": "788.97 km",
-          "demand": "650"
+          "distance": "495.97 km",
+          "demand": "500"
         }
       ]
     }
