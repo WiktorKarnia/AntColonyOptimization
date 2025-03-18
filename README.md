@@ -28,7 +28,7 @@ This project implements the **Ant Colony Optimization (ACO)** algorithm, which i
 
 ## Usage
 
-To run the algorithm, follow the instructions below:
+Run the algorithm by running the python file.
 
   ```bash
    python ACOsimulator.py 
